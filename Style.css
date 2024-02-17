@@ -1,0 +1,47 @@
+.row{
+    display: flex;
+}
+.output{
+    display: flex;
+}
+
+body {
+    background-color: #272727;
+    color: white; 
+    font-family: 'Arial', sans-serif;
+  }
+
+  .container {
+    width: 300px;
+    background-color: #1e1e1e; /* Darker container background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+   
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #1e1e1e; /* Dark button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  button:hover {
+    background-color: #00ff00; /* Green glow when hovered */
+  }
+
+  .output {
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0px;
+    margin-left: 350px;
+  }
