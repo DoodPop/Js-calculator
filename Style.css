@@ -13,7 +13,7 @@ body {
 
   .container {
     width: 300px;
-    background-color: #1e1e1e; /* Darker container background color */
+    background-color: #1e1e1e; 
     padding: 20px;
     border-radius: 10px;
     margin: 50px auto;
@@ -25,16 +25,16 @@ body {
     height: 50px;
     font-size: 18px;
     margin: 5px;
-    background-color: #1e1e1e; /* Dark button background color */
+    background-color: #1e1e1e; 
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s;
   }
 
   button:hover {
-    background-color: #00ff00; /* Green glow when hovered */
+    background-color: #00ff00; 
   }
 
   .output {
